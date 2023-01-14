@@ -32,7 +32,7 @@
                 <a
                   href="./index.html"
                   rel="noopener noreferrer nofolow"
-                  class="menu-list-link"
+                  class="menu-list-link current"
                 >
                   Studio
                 </a>
@@ -432,7 +432,7 @@
             </p>
           </div>
           <div class="footer-div">
-            <p class="footer-title">Social media</p>
+            <p class="footer-social-media">Social media</p>
             <ul class="footer-social-media-list">
               <li class="footer-social-media-list-item">
                 <a href="/" rel="noopener noreferrer nofolow" class="footer-social-media-link">
@@ -464,28 +464,23 @@
               </li>
             </ul>
           </div>
-          <div class="footer-div">
-            <p class="footer-title">Subscribe</p>
-            <form class="footer-form">
-              <input 
-                type="email" 
-                name="footer-email" 
-                id="email" 
-                placeholder="E-mail" 
-                class="footer-form-input">
-              <button type="submit" class="footer-form-button">Subscribe</button>
-            </form>
-          </div>
         </div>
       </div>
     </footer>
-    
+
 <!-- modal window -->
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button class="close-button" type="button" data-modal-close></button>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal"> 
+    <div class="modal-btn">
+      <button data-modal-close class="modal-close">
+        <svg class="modal-close-icon">
+          <use href="./images/icons.svg#icon-close-modal-button">
+            </use>
+            </svg>
+          </button>
       </div>
-    </div>
+  </div>
+</div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
